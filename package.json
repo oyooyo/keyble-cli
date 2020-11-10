@@ -1,0 +1,45 @@
+{
+	"name": "keyble-cli",
+	"version": "0.2.6",
+	"description": "Command line tools for controlling eQ-3 eqiva bluetooth smart locks",
+	"bin": {
+		"keyble": "./keyble.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": ">=0.10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oyooyo/keyble-cli.git"
+	},
+	"keywords": [
+		"eqiva",
+		"eQ-3",
+		"key-ble",
+		"keyble",
+		"Smart Lock"
+	],
+	"homepage": "https://oyooyo.github.io/keyble-cli",
+	"author": {
+		"name": "oyooyo"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/oyooyo/keyble-cli/issues"
+	},
+	"dependencies": {
+		"argparse": "^2.0.1"
+	},
+	"files": [
+		"*.js",
+		"*.md",
+		"package.json",
+		"package-lock.json"
+	],
+	"devDependencies": {
+		"jsdoc": "^3.6.6"
+	}
+}
